@@ -53,7 +53,7 @@ func main() {
 		//handle the error
 		return
 	}
-
+	//Run a for loop to get all the files in the directory
 	for _, fi := range fileInfos {
 		fmt.Println(fi.Name())
 	}
